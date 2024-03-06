@@ -1,0 +1,48 @@
+html, body {
+   background-image: url(officeloft.jpg);
+   background-size: cover;
+   font-family: 'Open Sans', 'Helvetica Neue', 'sans-seriff';
+   text-align: center;
+   height: 100vh;
+}
+
+.container {
+   background: white;
+   min-width: 80%;
+   margin: auto;
+   border: 3px soild black;
+   border-radius: 10px;
+}
+
+h1 {
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+h2 {
+   font-size: 50;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
+button {
+      border: 1px soild black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+      font-weight: bold;
+      width: 200px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+}
+
+#increment-btn {
+   background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#save-el {
+   font-weight: bold;
+}
